@@ -6,6 +6,12 @@
 
 h1 {
     font-size: 30px;
+/*    font-family: 'Poppins', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -15,6 +21,7 @@ ul {
 }
 
 ul li {
+    font-family: 'Source Code Pro', monospace;
     display: block;
     float: left;
     padding: 0 10px;
