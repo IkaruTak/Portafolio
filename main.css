@@ -1,3 +1,12 @@
+body {
+  background-color: black;
+  /*background-image: url(img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+  color: white;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -48,4 +57,23 @@ img.perfil {
 #infofoto:hover {
   opacity: 0.4;
   transition: opacity 500ms;
+}
+
+.div-imagen {
+  display: inline-block;
+  position: relative;
+}
+
+.div-imagen > div {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  z-index: -1;
+  padding: 10px;
+  margin: 0px;
+}
+
+.datos{
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
 }
