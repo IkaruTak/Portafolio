@@ -4,27 +4,40 @@
         <meta charset="utf-8">
         <title>Portafolio</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="icofont.css">
         <link href="https://fonts.googleapis.com/css?family=Dosis|Poppins|Source+Code+Pro" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li>Formación</li>
-                <li>Intereses</li>
-                <li>Contacto</li>
-                <li>Mapa</li>
-            </ul>
-        </nav>
-        <header class="principal">
-            <h1>Fernando Wong</h1>
-            <h2>Ingeniero en Sistemas Computacionales</h2>
-            <div class="div-imagen">
-              <div class="datos">
-                26 años<br/>
-                Estudiante<br/>
-              </div>
-              <img id="infofoto" class="perfil" src="img/perfil.jpg">
-            </div
-        </header>
+        <div class="contenedor">
+            <header class="principal">
+                <div class="menu_bar">
+                    <a href="#" class="btn_menu"><span class="icon-menu"></span>Menu</a>
+                </div>
+                <nav class="navegador">
+                    <ul>
+                        <li><a href="#"><span class="icon-pencil"></span>Formación</a></li>
+                        <li><a href="#"><span class="icon-bubbles"></span>Intereses</a></li>
+                        <li><a href="#"><span class="icon-envelop"></span>Contacto</a></li>
+                        <li><a href="#"><span class="icon-earth"></span>Mapa</a></li>
+                    </ul>
+                </nav>
+                <div class="pres">
+                    <h1>Fernando Wong</h1>
+                    <h2>Ingeniero en Sistemas Computacionales</h2>
+                </div>
+                <div class="div-imagen">
+                    <!-- <div class="datos">
+                        26 años<br/>
+                        Estudiante<br/>
+                    </div> -->
+                    <img id="infofoto" class="perfil" src="img/perfil.jpg">
+                </div>
+            </header>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="menu.js"></script>
+
     </body>
 </html>
