@@ -40,7 +40,7 @@ if (isset($_POST['submit'])) {
         $contenido .= "E-mail: $correo \n";
         $contenido .= "Mensaje: $mensaje";
 
-        // mail($enviar_a, $asunto, $cuerpo);
+        mail($enviar_a, $asunto, $cuerpo);
 
         $enviado = true;
     }
